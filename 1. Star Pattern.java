@@ -1,16 +1,14 @@
 
 package my_application;
-import java.util.Scanner;
+
 
 class My_Application {
         
  
     public static void main(String[] args) {
-       
-    Scanner scan = new Scanner(System.in);
     
-   for (int i = 0; i < 5; i++) {
-       System.out.println("********");
+   for (int i = 0; i < 5; i++) { //will keep repeating this loop at long as 'i' is less than 5
+       System.out.println("********"); //this statment will be printed every time the loop executes.
    }
     
             
